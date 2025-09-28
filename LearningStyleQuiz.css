@@ -1,0 +1,19 @@
+.learning-quiz-container {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.learning-quiz-container h2 {
+  color: #1976d2;
+}
+
+.learning-quiz-container input {
+  margin-right: 10px;
+}
+
+.learning-quiz-container button {
+  margin-top: 10px;
+}

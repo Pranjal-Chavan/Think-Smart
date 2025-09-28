@@ -1,0 +1,75 @@
+.pdf-to-questions-container {
+  position: relative;
+  background: linear-gradient(145deg, #ffffff, #e3f2fd);
+  border-radius: 20px;
+  padding: 60px 30px 30px 30px;
+  margin: 30px auto;
+  max-width: 700px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.pdf-to-questions-container h2 {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  color: #0d47a1;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.pdf-upload-area {
+  border: 2px dashed #1976d2;
+  border-radius: 15px;
+  padding: 50px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #1976d2;
+  font-weight: 500;
+  margin-bottom: 25px;
+  background-color: #f0f5fb;
+}
+
+.pdf-upload-area:hover {
+  background-color: #e3f2fd;
+  border-color: #0d47a1;
+}
+
+.pdf-upload-area input {
+  display: none;
+}
+
+.generate-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  background-color: #0d47a1;
+  color: white;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.generate-btn:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}
+
+.generated-questions {
+  background-color: #ffffffcc;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.generated-questions ol {
+  padding-left: 20px;
+}

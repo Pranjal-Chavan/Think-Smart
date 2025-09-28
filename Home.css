@@ -1,0 +1,136 @@
+/* Home.css */
+.home-container {
+  padding: 0 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #42a5f5, #1976d2);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #1976d2;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e3f2fd;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.features h2 {
+  color: #1976d2;
+  margin-bottom: 30px;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature-cards .card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.feature-cards .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Stats Section */
+.stats {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.stats h2 {
+  color: #1976d2;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.stat-box {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.stat-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonials h2 {
+  color: #1976d2;
+  margin-bottom: 30px;
+}
+
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-cards .card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.testimonial-cards .card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-cards p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-cards h4 {
+  color: #1976d2;
+  font-weight: 600;
+}
